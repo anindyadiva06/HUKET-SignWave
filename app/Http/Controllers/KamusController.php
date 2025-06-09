@@ -34,22 +34,25 @@ class KamusController extends Controller
         return view('kamus.tambah');
     }
 
-    public function store(Request $request)
+  public function store(Request $request)
     {
         $validatedData = $request->validate([
             'kata' => 'required',
             'deskripsi' => 'required',
             'gambar' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
-    
-        $gambarPath = $request->file('gambar')->storeAs('assets/img/kamus', $request->file('gambar')->getClientOriginalName(), 'public');
-    
+
+        $gambar = $request->file('gambar');
+        $gambarName = time() . '_' . $gambar->getClientOriginalName();
+
+        $gambar->storeAs('assets/img/kamus', $gambarName, 'public');
+
         $kamus_signwave = new Kamus;
         $kamus_signwave->kata = $request->kata;
         $kamus_signwave->deskripsi = $request->deskripsi;
-        $kamus_signwave->gambar = $gambarPath;
+        $kamus_signwave->gambar = $gambarName;
         $kamus_signwave->save();
-    
+
         return redirect()->route('kamus.index')->with('success', 'Kamus berhasil ditambahkan!');
     }
 
