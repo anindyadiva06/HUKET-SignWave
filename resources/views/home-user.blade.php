@@ -43,7 +43,7 @@
           <p>Platform <b>Sign Wave</b> adalah sebuah sistem berbasis web yang dirancang untuk membantu orang-orang dalam mempelajari dan berkomunikasi menggunakan Bahasa Isyarat Indonesia (BISINDO). Platform ini dirancang untuk memudahkan komunikasi antara orang yang mendengar (teman dengar) dan orang dengan keterbatasan pendengaran (teman tuli) melalui berbagai fitur interaktif yang mendukung pembelajaran Bahasa Isyarat.</p>
         </div>
         <div class="col-lg-5 order-1" style="margin-left:100px;">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="Sign Wave" data-aos="zoom-out" data-aos-delay="100" width="80%">
+          <img src="assets/img/icon-landing-page.png" class="img-fluid" alt="Sign Wave" data-aos="zoom-out" data-aos-delay="100" width="80%">
         </div>
       </div>
     </div>
@@ -190,7 +190,7 @@
 
             <div class="row gy-4">
                 <div class="col-lg-4 order-lg-2">
-                    <img src="{{ asset('assets/img/deaf-mute-people-concept-illustration.png') }}" class="img-fluid rounded-4 mb-4" alt="">
+                    <img src="assets/img/tentang-kami.png" class="img-fluid rounded-4 mb-4" alt="">
                 </div>
                 <h3>Sign Wave</h3>
                 <div class="col-lg-8 order-lg-2">

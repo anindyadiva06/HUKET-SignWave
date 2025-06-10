@@ -79,7 +79,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-portfolio">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/kamus/huruf_rmv.png" class="img-fluid" alt=""></a>
+                    <img src="assets/img/kamus/display-kamus-huruf.png" class="img-fluid" alt=""></a>
                     <div class="portfolio-info">
                     <h4><a href="#" title="More Details">Huruf</a></h4>
                     <p>Tersedia 26 huruf mulai dari A hingga Z</p>
@@ -89,7 +89,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
-                <img src="assets/img/kamus/angka_rmv.png" class="img-fluid" alt=""></a>
+                <img src="assets/img/kamus/display-kamus-angka.png" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="#" title="More Details">Angka</a></h4>
                   <p>Angka dari 0 hingga 1.000.000.000</p>
