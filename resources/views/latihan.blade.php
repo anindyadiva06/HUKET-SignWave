@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 latihan-img">
-          <img src="{{ asset('assets/img/kuis.jpg') }}" class="img-fluid animated" alt="">
+          <img src="assets/img/icon-latihan.png" class="img-fluid animated" alt="">
         </div>
       </div>
 

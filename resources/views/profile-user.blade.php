@@ -62,7 +62,7 @@
           <div class="col-lg-4 col-md-4">
             <div class="service-item  position-relative">
               <div class="profile-img">
-              <img src="assets/img/ava-user.png" alt="Profile Picture" class="img-fluid">
+              <img src="assets/img/icon-profile.png" alt="Profile Picture" class="img-fluid">
             </div>
             </div>
           </div>
